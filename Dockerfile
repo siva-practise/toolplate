@@ -8,7 +8,7 @@ RUN apt-get update -y && apt-get install -y unzip && apt-get install -y wget
 WORKDIR /app
 
 # Download the zip file using curl and save it to the expected filename
-RUN wget https://www.tooplate.com/zip-templates/2136_kool_form_pack.zip
+RUN wget https://www.tooplate.com/download/2086_multi_color.zip
 
 # Verify that the file has been downloaded (optional debugging)
 RUN ls -l /app
