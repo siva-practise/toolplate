@@ -28,7 +28,7 @@ WORKDIR /usr/share/nginx/html
 COPY --from=BUILD-IMAGE /app/* /usr/share/nginx/html/
 
 # Expose port 80 for HTTP
-EXPOSE 8080
+EXPOSE 80
 
 # Start Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
