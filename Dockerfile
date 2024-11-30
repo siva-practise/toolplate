@@ -13,10 +13,10 @@ RUN wget https://www.tooplate.com/zip-templates/2084_zipper.zip
 RUN ls -l /app
 
 # Unzip the contents of the zip file
-RUN unzip 2136_kool_form_pack.zip
+RUN unzip 2084_zipper.zip
 
 # Clean up the zip file
-RUN rm 2136_kool_form_pack.zip
+RUN rm 2084_zipper.zip
 
 # Use the latest Nginx image for the final image
 FROM nginx:latest
